@@ -1,0 +1,7 @@
+127.0.0.1 - - [02/Mar/2015:15:54:31 +0100] "GET /insertValuePerson.html HTTP/1.1" 200 660 http-bio-8080-exec-1 60
+127.0.0.1 - - [02/Mar/2015:15:54:42 +0100] "POST /InsertValue HTTP/1.1" 500 3532 http-bio-8080-exec-2 266
+127.0.0.1 - - [02/Mar/2015:15:58:31 +0100] "POST /InsertValue HTTP/1.1" 500 3532 http-bio-8080-exec-1 275
+127.0.0.1 - - [02/Mar/2015:16:20:59 +0100] "POST /InsertValue HTTP/1.1" 200 - http-bio-8080-exec-1 3848
+127.0.0.1 - - [02/Mar/2015:16:21:47 +0100] "POST /InsertValue HTTP/1.1" 200 - http-bio-8080-exec-1 2184
+127.0.0.1 - - [02/Mar/2015:16:22:35 +0100] "POST /InsertValue HTTP/1.1" 200 - http-bio-8080-exec-1 2163
+127.0.0.1 - - [02/Mar/2015:16:24:10 +0100] "POST /InsertValue HTTP/1.1" 200 6 http-bio-8080-exec-1 2251
