@@ -7,17 +7,17 @@ TP3
 
 TP4 NoSQL : mongodb + redis
   - QUESTION 1 : Les limites des bases de données orienté document sont :
-    -> un manque de fléxibilité lors de l'utilisation des requêtes
-    -> fichier pouvant être un ensemble de jointure et donc peut vite devenir "gros" car les jointures ne sont pas possible entre les tables
-    -> d'après le cours, les propriétés garantissant la cohérence des données en est impactée à cause du choix du respect de deux des trois propriétés (Cohérence, Disponibilité, Résistance)
+    * un manque de fléxibilité lors de l'utilisation des requêtes
+    * fichier pouvant être un ensemble de jointure et donc peut vite devenir "gros" car les jointures ne sont pas possible entre les tables
+    * d'après le cours, les propriétés garantissant la cohérence des données en est impactée à cause du choix du respect de deux des trois propriétés (Cohérence, Disponibilité, Résistance)
   - QUESTION 2 : (http://www.barreverte.fr/une-courte-introduction-a-redis/)
-    -> Les types de données stockés dans Redis sont des listes liées (linked list), des valeurs (numérique et littéraux), des ensembles (triés ou non) et des tables de hachage
-    -> Les types de requêtes qui peuvent être faites sont : 
-      -> valeurs : SET, GET, INCR, DECR, GETSET
-      -> listes : RPUSH, LPUSH, LRANGE, LINDEX, LLEN
-      -> table de hashage : HSET, HGET, HLEN, HGETALL, HINCRBy, HKEY, HVALS, HDEL
-      -> collections (ensembles): SADD, SCARD, SINTER, SUNION, SDIFF, SINTERSTORE
-      -> collections triés (ensembles triés) : ZADD, ZCARD, ZINTER, ZUNION, ZDIFF, ZRANGE, ZRANGEBYSCORE, ZRANK
+    * Les types de données stockés dans Redis sont des listes liées (linked list), des valeurs (numérique et littéraux), des ensembles (triés ou non) et des tables de hachage
+    * Les types de requêtes qui peuvent être faites sont : 
+      - valeurs : SET, GET, INCR, DECR, GETSET
+      - listes : RPUSH, LPUSH, LRANGE, LINDEX, LLEN
+      - table de hashage : HSET, HGET, HLEN, HGETALL, HINCRBy, HKEY, HVALS, HDEL
+      - collections (ensembles): SADD, SCARD, SINTER, SUNION, SDIFF, SINTERSTORE
+      - collections triés (ensembles triés) : ZADD, ZCARD, ZINTER, ZUNION, ZDIFF, ZRANGE, ZRANGEBYSCORE, ZRANK
   
 TP6 AngularJs
   - Problème d'installation de yeoman : 
